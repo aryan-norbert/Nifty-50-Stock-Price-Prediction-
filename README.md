@@ -16,4 +16,20 @@ This repository provides Python scripts for predicting Nifty 50 stock prices usi
 
 ## Installation
 1. Clone the repository:
+https://github.com/aryan-norbert/Nifty-50-Stock-Price-Prediction-.git
+
+2. Install dependencies:
+
+
+## Usage
+1. Run `preprocess_data.py` to fetch historical data, preprocess it, and save as CSV.
+2. Execute `train_model.py` to train linear regression models and evaluate their performance.
+3. Use `visualize_results.py` to generate plots comparing predicted and actual stock prices.
+
+## Example
+```bash
+python preprocess_data.py
+python train_model.py
+python visualize_results.py
+
 
